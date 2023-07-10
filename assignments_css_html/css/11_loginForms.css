@@ -1,0 +1,76 @@
+body{
+    padding: 50px 420px 50px 420px;
+    background-color: white
+}
+
+.Llabel{ 
+    font-size: 25px;
+    font-style: unset;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.Llabel1{ 
+    font-size: 17px;
+    font-style: unset;
+    margin-left: 145px;
+    margin-bottom: 10px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    
+}
+.Llabel2{
+    cursor:pointer;
+    color: blue;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    margin-left: 30px;
+}
+.Llabel3{
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    margin-left: 30px;
+    font-size: 16px;
+}
+fieldset{
+    border-radius: 10px;
+    border-color: white;
+}
+input[type=email],input[type=password]
+{
+    padding: 15px;
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: gainsboro;
+    box-sizing: inherit;
+    background-color: transparent;
+    border-style: ridge;
+    margin-bottom: 6px;
+    margin-top: 10px;
+       
+}
+
+input[type=email]:focus{
+    border: 1px ridge blue;
+    outline: blue;
+}
+input[type=password]:focus{
+    border: 1px ridge blue;
+    outline: blue;
+}
+.registerbtn {  
+    background-color:#0000ffc4;  
+    color: white;  
+    padding: 10px 22px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 18%;  
+    opacity: 0.9;  
+    margin-left: 210px;
+    border-radius: 5px;
+    font-size: 16px;
+  }  
+  .registerbtn:hover {  
+    opacity: 10;  
+  }  
+  

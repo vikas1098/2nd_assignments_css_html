@@ -1,0 +1,46 @@
+body{
+    padding: 50px 270px 50px 270px;
+    background-color: rgb(212, 215, 218);
+    background-image: url("hayabus.png");
+}
+input[type=text],input[type=email],textarea,input[type=password]{
+
+    width: 92%;  
+    padding: 15px;  
+    margin: 5px 0 22px 5px;  
+    display: inline-block;  
+    border: none;  
+    font-size: 18px;
+}
+select{
+    width: 96%;  
+    padding: 15px;  
+    margin: 5px 0 22px 5px;  
+    display: inline-block;  
+    border: none;  
+    font-size: 18px;
+}
+label{
+    margin: 5px 0 22px 5px; 
+    font-size: 20px
+}
+li{
+    font-size: 18px
+}
+.registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+    border-radius: 22px;
+    font-size: 18px;
+  }  
+  .registerbtn:hover {  
+    opacity: 10;  
+  }  
+
+

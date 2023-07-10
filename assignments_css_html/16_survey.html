@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/16_survey.css">
+    <script src="survey.js"></script>
+</head>
+<body>
+    <form>
+        <h1>This is a random public survey form</h1>
+        <div class="container1">
+            <div class="col-md-6">
+                <label>Have you ever purchased a product or service from our website ?</label><br><br>
+            <label class="container">Yes
+                <input type="radio" name="radio" required>
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label><br><br>
+
+              <label>How did you hear about our website ?</label><br><br>
+              <label class="container ">TV
+                    <input type="checkbox" required>
+                    <span class="checkbox1"></span>
+                    </label>
+                    <label class="container">Newspaper
+                    <input type="checkbox">
+                    <span class="checkbox1"></span>
+                    </label>
+                    <label class="container">Radio
+                    <input type="checkbox">
+                    <span class="checkbox1"></span>
+                    </label>
+                    <label class="container">Internet
+                    <input type="checkbox">
+                    <span class="checkbox1"></span>
+                </label><br><br>
+
+                <label>Give Rank 1-5 to our website.</label><br><br>
+                <select required>
+                    <option>---------Select---------</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select><br><br>
+
+                <label>What is your date of birth ?</label><br><br>
+                <select required id="dob">
+                    <option>Month</option>
+                    <option>Jan(1)</option>
+                    <option>Feb(2)</option>
+                    <option>Mar(3)</option>
+                    <option>Apr(4)</option>
+                    <option>May(5)</option>
+                    <option>June(6)</option>
+                    <option>Jul(7)</option>
+                    <option>Aug(8)</option>
+                    <option>Sep(9)</option>
+                    <option>Oct(10)</option>
+                    <option>Nov(11)</option>
+                    <option>Dec(12)</option>
+                </select>
+                <input type="text" id="dob" required placeholder="Date"/>
+                <input type="text" id="dob" required placeholder="Year"/><br><br>
+
+                <input type="reset" class="registerbtn" value="Clear All"/>
+            </div>
+
+                <div class="col-md-6">
+                    <label>Please rate us for the below attributes.</label><br><br>
+                    <table >
+                        <tr>
+                          <td rowspan="1"></td>
+                          <th colspan="1">Poor</th>
+                          <th rowspan="1">Average</th>
+                          <th rowspan="1">Good</th>
+                          <th rowspan="1">Excellent</th>
+                        </tr>
+                        
+                        <tr>
+                          <th>Customer Service</th>
+                          <td id="pr">
+                                <label class="container">
+                                    <input type="radio" name="cs" required>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="cs">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="gd">
+                            <label class="container">
+                                <input type="radio" name="cs">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="cs">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Delivery</th>
+                          <td id="pr">
+                            <label class="container">
+                                <input type="radio" name="del" required>
+                                <span class="checkmark"></span>
+                            </label>
+                    </td>
+                      <td id="exc">
+                        <label class="container">
+                            <input type="radio" name="del">
+                            <span class="checkmark"></span>
+                        </label>
+                      </td>
+                      <td id="gd">
+                        <label class="container">
+                            <input type="radio" name="del">
+                            <span class="checkmark"></span>
+                        </label>
+                      </td>
+                      <td id="exc">
+                        <label class="container">
+                            <input type="radio" name="del">
+                            <span class="checkmark"></span>
+                        </label>
+                      </td>
+                        </tr>
+
+                        <tr>
+                            <th>Quality</th>
+                            <td id="pr">
+                                <label class="container">
+                                    <input type="radio" name="qul" required>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="qul">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="gd">
+                            <label class="container">
+                                <input type="radio" name="qul">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="qul">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          </tr>
+
+                          <tr>
+                            <th>Shoping Experince</th>
+                            <td id="pr">
+                                <label class="container">
+                                    <input type="radio" name="se" required>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="se">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="gd">
+                            <label class="container">
+                                <input type="radio" name="se">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          <td id="exc">
+                            <label class="container">
+                                <input type="radio" name="se">
+                                <span class="checkmark"></span>
+                            </label>
+                          </td>
+                          </tr>
+                      </table><br><br><br><br>
+
+                      <label>Give your valueable feedback....</label><br><br> 
+                      <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+                      <input type="submit" class="registerbtn1" value="Save" onclick="save()"/>
+                </div>
+
+                
+
+                
+        </div>
+    </form>
+</body>
+</html>
